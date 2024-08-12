@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="wB2AmNscI2OqT_BaXkNG">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5nSp7x017VPIv3568uPJ-1" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#f8cecc;shape=mxgraph.azure.computer" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="177.78" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5nSp7x017VPIv3568uPJ-2" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#6c8ebf;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="510" y="150" width="90" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5nSp7x017VPIv3568uPJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.99;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5nSp7x017VPIv3568uPJ-2" target="5nSp7x017VPIv3568uPJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5nSp7x017VPIv3568uPJ-4" value="&lt;b&gt;Images&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5nSp7x017VPIv3568uPJ-5" value="&lt;b&gt;Server&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5nSp7x017VPIv3568uPJ-6" value="&lt;b&gt;Client&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="138.89" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5nSp7x017VPIv3568uPJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5nSp7x017VPIv3568uPJ-7" target="5nSp7x017VPIv3568uPJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5nSp7x017VPIv3568uPJ-7" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#6c8ebf;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="120" y="465" width="90" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5nSp7x017VPIv3568uPJ-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-128.png" vertex="1" parent="1">
+          <mxGeometry x="472" y="486" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="5nSp7x017VPIv3568uPJ-10" value="&lt;b&gt;Server&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="635" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5nSp7x017VPIv3568uPJ-11" value="&lt;b&gt;Client&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="138.89" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
