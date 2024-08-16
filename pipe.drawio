@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Page-1" id="dbHLwyuTF4ugiepWZlWB">
+    <mxGraphModel dx="1050" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i3dtlrKUZHztAGJV6LgK-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-41-128.png" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="i3dtlrKUZHztAGJV6LgK-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-41-128.png" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="i3dtlrKUZHztAGJV6LgK-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/construction-2-21/512/construction-industry-building-41-128.png" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="i3dtlrKUZHztAGJV6LgK-4" value="&lt;b&gt;I/P&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="38" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i3dtlrKUZHztAGJV6LgK-5" value="&lt;b&gt;O/P&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="129" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i3dtlrKUZHztAGJV6LgK-6" value="&lt;b&gt;I/P&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i3dtlrKUZHztAGJV6LgK-7" value="&lt;b&gt;O/P&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i3dtlrKUZHztAGJV6LgK-8" value="&lt;b&gt;I/P&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i3dtlrKUZHztAGJV6LgK-9" value="&lt;b&gt;O/P&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="410" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
