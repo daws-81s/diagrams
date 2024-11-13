@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Page-1" id="mSZBGDn1ZyXawdhZsoKn">
+    <mxGraphModel dx="2109" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-1" value="AWS Account" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="120" width="810" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-9" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="rLMsIQ_P4WRgBCbAYzuP-1">
+          <mxGeometry x="180" y="154" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-10" value="" style="group" vertex="1" connectable="0" parent="rLMsIQ_P4WRgBCbAYzuP-1">
+          <mxGeometry x="390" y="20" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rLMsIQ_P4WRgBCbAYzuP-10">
+          <mxGeometry width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rLMsIQ_P4WRgBCbAYzuP-10" source="rLMsIQ_P4WRgBCbAYzuP-4" target="rLMsIQ_P4WRgBCbAYzuP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rLMsIQ_P4WRgBCbAYzuP-10" source="rLMsIQ_P4WRgBCbAYzuP-4" target="rLMsIQ_P4WRgBCbAYzuP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-4" value="Amazon EKS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.eks;" vertex="1" parent="rLMsIQ_P4WRgBCbAYzuP-10">
+          <mxGeometry x="30" y="20" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="rLMsIQ_P4WRgBCbAYzuP-10">
+          <mxGeometry x="200" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="rLMsIQ_P4WRgBCbAYzuP-10">
+          <mxGeometry x="200" y="70" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rLMsIQ_P4WRgBCbAYzuP-10" source="rLMsIQ_P4WRgBCbAYzuP-15" target="rLMsIQ_P4WRgBCbAYzuP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-15" value="&lt;b&gt;ingress&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rLMsIQ_P4WRgBCbAYzuP-10">
+          <mxGeometry x="50" y="170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-16" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Kubernetes_Services.svg;" vertex="1" parent="rLMsIQ_P4WRgBCbAYzuP-10">
+          <mxGeometry x="190" y="171.5" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-18" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="rLMsIQ_P4WRgBCbAYzuP-10">
+          <mxGeometry x="300" y="171.5" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.253;entryY=0.381;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rLMsIQ_P4WRgBCbAYzuP-10" source="rLMsIQ_P4WRgBCbAYzuP-16" target="rLMsIQ_P4WRgBCbAYzuP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-11" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.route_53;" vertex="1" parent="rLMsIQ_P4WRgBCbAYzuP-1">
+          <mxGeometry x="30" y="151" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rLMsIQ_P4WRgBCbAYzuP-1" source="rLMsIQ_P4WRgBCbAYzuP-11" target="rLMsIQ_P4WRgBCbAYzuP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rLMsIQ_P4WRgBCbAYzuP-1" source="rLMsIQ_P4WRgBCbAYzuP-9" target="rLMsIQ_P4WRgBCbAYzuP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rLMsIQ_P4WRgBCbAYzuP-22" value="&lt;b&gt;app1.daws81s.online&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rLMsIQ_P4WRgBCbAYzuP-1">
+          <mxGeometry y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

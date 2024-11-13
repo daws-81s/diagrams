@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Page-1" id="i_xEsvh39rMq015timQ2">
+    <mxGraphModel dx="1259" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-1" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;AWS Account&lt;/font&gt;&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;verticalAlign=top;align=left;spacingLeft=30;dashed=0;fillColor=#D6D6D6;fontColor=#333333;strokeColor=#d70f23;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="760" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-2" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Public subnet&lt;/font&gt;&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#6c8ebf;fillColor=#dae8fc;verticalAlign=top;align=left;spacingLeft=30;dashed=0;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-1">
+          <mxGeometry x="120" y="40" width="145" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-19" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58536;gradientColor=none;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-2">
+          <mxGeometry x="30.5" y="164" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-5/512/Collection_folder_data_group_locked_security_secure_lock-128.png" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-2">
+          <mxGeometry x="45" y="135" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-27" value="Bastion Host" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-2">
+          <mxGeometry x="41" y="30" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-28" value="" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.bastion-host" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-27">
+          <mxGeometry width="24" height="24" relative="1" as="geometry">
+            <mxPoint x="12" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-33" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Ingress Controller&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-2">
+          <mxGeometry x="-5" y="236" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-4" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Private subnet&lt;/font&gt;&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#b85450;fillColor=#f8cecc;verticalAlign=top;align=left;spacingLeft=30;dashed=0;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-1">
+          <mxGeometry x="315" y="40" width="195" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="Bzz1_AComHtCyPnoAPtP-4" source="Bzz1_AComHtCyPnoAPtP-6" target="Bzz1_AComHtCyPnoAPtP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-6" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.eks;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-4">
+          <mxGeometry x="57.5" y="30" width="72.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-15" value="" style="group" vertex="1" connectable="0" parent="Bzz1_AComHtCyPnoAPtP-4">
+          <mxGeometry x="18.75" y="160" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-15">
+          <mxGeometry width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-12" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-15">
+          <mxGeometry x="85" y="15" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-11" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-15">
+          <mxGeometry x="10" y="15" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-5/512/Collection_folder_data_group_locked_security_secure_lock-128.png" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-4">
+          <mxGeometry x="118.75" y="20" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-5/512/Collection_folder_data_group_locked_security_secure_lock-128.png" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-4">
+          <mxGeometry x="145" y="130" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-30" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-4">
+          <mxGeometry x="15" y="130" width="60.27" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-35" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Managed NodeGroup&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-4">
+          <mxGeometry x="13.75" y="250" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-36" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;EKS control plane&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-4">
+          <mxGeometry x="28.75" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-5" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;DB subnet&lt;/font&gt;&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#82b366;fillColor=#d5e8d4;verticalAlign=top;align=left;spacingLeft=30;dashed=0;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-1">
+          <mxGeometry x="550" y="40" width="195" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-24" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-5">
+          <mxGeometry x="72.75" y="167" width="49.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-5/512/Collection_folder_data_group_locked_security_secure_lock-128.png" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-5">
+          <mxGeometry x="90" y="135" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-37" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;RDS MySQL&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-5">
+          <mxGeometry x="42.5" y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" edge="1" parent="Bzz1_AComHtCyPnoAPtP-1" source="Bzz1_AComHtCyPnoAPtP-19" target="Bzz1_AComHtCyPnoAPtP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" edge="1" parent="Bzz1_AComHtCyPnoAPtP-1" source="Bzz1_AComHtCyPnoAPtP-22" target="Bzz1_AComHtCyPnoAPtP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-22" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.route_53;" vertex="1" parent="Bzz1_AComHtCyPnoAPtP-1">
+          <mxGeometry x="30" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="Bzz1_AComHtCyPnoAPtP-1" source="Bzz1_AComHtCyPnoAPtP-10" target="Bzz1_AComHtCyPnoAPtP-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bzz1_AComHtCyPnoAPtP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;flowAnimation=1;" edge="1" parent="Bzz1_AComHtCyPnoAPtP-1" source="Bzz1_AComHtCyPnoAPtP-27" target="Bzz1_AComHtCyPnoAPtP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
